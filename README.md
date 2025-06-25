@@ -1,30 +1,43 @@
+3D DEMO LANDING PAGE
+* Neon-themed futuristic UI landing page
+* Spline-integrated 3D robot model (`spline-viewer`)
+* Dual-page structure:
 
-<a href="https://www.youtube.com/watch?v=oskiEydAaok&list=PL67b5wgxuUtAWuQscGa6pnBD6SFv92W5W" target="_blank">
-  <img src="/thumbnail.png" alt="Thumbnail"/>
-</a>
+  * `index.html` (main landing/home page)
+  * `signin.html` (styled sign-in page)
 
+ Technologies Used
 
----
-## Description:
-## Want to build a modern, interactive 3D website using HTML, CSS, and Spline? In this step-by-step tutorial, I'll show you how to integrate a 3D model into your website for a sleek, immersive experience! 🌐✨
-
-## 🔥 What You’ll Learn:
-## ✅ How to create and customize 3D models in Spline
-## ✅ How to embed 3D models in a website using HTML & CSS
-## ✅ Adding smooth animations & interactivity
-## ✅ Creating a responsive and modern 3D landing page
-## ✅ Best practices for performance optimization
-
-## This tutorial is perfect for beginners and advanced developers looking to add 3D effects to their web projects! 🎨💡
-
-## 💻 Tools & Technologies:
-
-## -HTML, CSS
-## -Spline (3D Design & Animation)
+* `HTML5` – Semantic page structure
+* `CSS3` – Neon aesthetic, gradients, animations
+* `Spline` – Real-time 3D object embedded via WebGL viewer
+* `Google Fonts` – Clean, modern typography
+* `Responsive Design` – Works across screen sizes
 
 
----
-## Watch the full tutorial on YouTub
-<a href="https://www.youtube.com/watch?v=oskiEydAaok&list=PL67b5wgxuUtAWuQscGa6pnBD6SFv92W5W">
-  <img src="/youtube.png" alt="youtube"/>
-</a>
+* Neon UI with glowing orange theme (`#F57662`)
+* Hover effects and animated gradient tag box
+* Fully responsive layout
+* 3D robot animation (via Spline embed)
+* Gradient overlay and blur lighting effects
+* Reusable CSS structure for easy theming
+
+Spline 3D
+  Integrated using:
+
+  ```html
+  <script type="module" src="https://unpkg.com/@splinetool/viewer@1.10.14/build/spline-viewer.js"></script>
+  ```
+
+  Custom scene via `<spline-viewer url="...">`
+
+Gradient background image – for depth and glow
+
+Custom layer blur– `box-shadow`-based lighting illusion
+
+
+* `index.html` → Landing page w/ robot and CTA buttons
+* `signin.html` → Sign-in form (styled in same neon theme)
+* `style.css` → Shared stylesheet
+* `README.md` → You’re here!
+
