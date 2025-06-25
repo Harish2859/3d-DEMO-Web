@@ -27,7 +27,7 @@ body {
     width: 30rem;
     top: 20%;
     right: 0;
-    box-shadow: 0 0 700px 15px white;
+    box-shadow: 0 0 700px 15px #F57662;
     rotate: -30deg;
     z-index: -1;
 }
@@ -52,7 +52,7 @@ body {
 .logo {
     font-size: 3rem;
     font-weight: 600;
-    color: white;
+    color: #F57662;
 }
 
 nav {
@@ -62,17 +62,17 @@ nav {
 
 nav a {
     font-size: 1rem;
-    color: inherit;
+    color: #f5f5f5;
     text-decoration: none;
     transition: color 0.2s ease;
 }
 
 nav a:hover {
-    color: #a7a7a7;
+    color: #F57662;
 }
 
 .btn-signin {
-    background-color: #a7a7a7;
+    background-color: #F57662;
     color: black;
     padding: 0.8rem 2rem;
     border-radius: 50px;
@@ -84,7 +84,7 @@ nav a:hover {
 }
 
 .btn-signin:hover {
-    background-color: white;
+    background-color: #ffa893;
 }
 
 /* Main */
@@ -106,10 +106,10 @@ nav a:hover {
     width: 18rem;
     height: 2.5rem;
     border-radius: 50px;
-    background: linear-gradient(to right, #656565, #7f42a7, #6600c5, #5300a0, #757575, #656565);
+    background: linear-gradient(to right, #F57662, #f59c8a, #f8c7bd, #F57662);
     background-size: 200%;
     animation: animationGradient 2.5s infinite linear;
-    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 15px rgba(245, 118, 98, 0.3);
 }
 
 .tag {
@@ -120,13 +120,13 @@ nav a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: #fff0e8;
     font-weight: 500;
     transition: 0.5s ease;
 }
 
 .tag:hover {
-    color: #5300a0;
+    color: #F57662;
 }
 
 @keyframes animationGradient {
@@ -141,12 +141,12 @@ nav a:hover {
     font-weight: 600;
     margin: 2rem 0;
     line-height: 1.2;
-    text-shadow: 0 0 10px rgba(128, 128, 128, 0.4);
+    text-shadow: 0 0 15px #F57662;
 }
 
 .description {
     font-size: 1.2rem;
-    color: grey;
+    color: #ccc;
     max-width: 35rem;
 }
 
@@ -168,24 +168,28 @@ nav a:hover {
 }
 
 .btn-get-started {
-    color: white;
-    border: 1px solid #2a2a2a;
+    color: #fefefe;
+    border: 1px solid #F57662;
 }
 
 .btn-get-started:hover {
     background-color: #1a1a1a;
+    color: #F57662;
 }
 
 .btn-signin-main {
-    background-color: lightgray;
+    background-color: #F57662;
     color: black;
 }
 
 .btn-signin-main:hover {
-    background-color: gray;
+    background-color: #ffa893;
+    color: white;
 }
-.robot-3d{
+
+.robot-3d {
     position: absolute;
-    top:  20%;
+    top: 15%;
     right: -20%;
 }
+
